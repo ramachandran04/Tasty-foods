@@ -9,6 +9,12 @@ body{
   scroll-behavior: smooth;
 }
 
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 :root{
   --bg-color:#fefefe;
   --pure-white-color: #ffffff;
@@ -18,10 +24,12 @@ body{
   --primary-font:"Roboto", sans-serif;
 }
 
+/*-----------------topbar-------------------------------- */
+
 #main-container{
   background-color: var(--bg-color);
   font-family: var(--primary-font);
-  padding: 10px 100px;
+  padding: 10px 0px;
   font-size:0.8rem;
 }
 
@@ -57,3 +65,8 @@ hr{
   background-color: var(--text-black);
   opacity: 0.3;
 }
+
+
+
+/*--------------------- navbar--------------------------------- */
+
