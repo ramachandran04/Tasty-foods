@@ -39,11 +39,6 @@ body{
   justify-content: space-between;
 }
 
-.nav-container .container{
-  display: flex;
-  justify-content: space-between;
-}
-
 .information ul{
   display: flex;
   justify-content: space-between;
@@ -76,6 +71,11 @@ hr{
 
 /*--------------------- navbar--------------------------------- */
 
+.nav-container .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo{
   font-family: var(--logo-font);
@@ -98,12 +98,72 @@ hr{
   letter-spacing: 2px;
 }
 
+
 .nav-list ul{
   display: flex;
+  gap:2rem;
   list-style: none;
   color: var(--text-black);
   justify-content: space-between;
 }
 
+.nav-list ul li a{
+text-decoration: none;
+font-size:1.0rem;
+color: var(--text-black);
+font-family:var(--primary-font);
+font-weight:400;
+}
 
+.nav-actions{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+.contact-info{
+display: flex;
+align-items: center;
+gap:0.5rem;
+}
+
+.phone-text{
+  display: flex;
+  flex-direction: column;
+}
+
+#callus{
+  font-size:1rem;
+  font-weight:100;
+}
+
+#call-number{
+  font-size: 1.5rem;
+  color: var(--yellow-color);
+  font-weight: 700;
+}
+
+.fa-phone-volume {
+font-size: 2.2rem;
+}
+
+#delieverylogo{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+#orderonline{
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+  align-items: center;
+  background-color: var(--text-red);
+  color: var(--pure-white-color);
+  border-radius: 2rem;
+  width:10rem;
+  height: 2.8rem;
+  padding: 0.2rem 1.2rem;
+}
+
+/*  */
